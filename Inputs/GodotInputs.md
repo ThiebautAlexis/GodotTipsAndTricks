@@ -5,7 +5,7 @@
 Dans Godot, on peut créer des Inputs Maps afin de stocker des Inputs Actions qu’on pourra ensuite utiliser dans le code. 
 Pour accéder à l’Input Map, il faut aller dans le menu `Project > Project Settings > Input Map` , on peut ensuite ajouter de nouvelles Input Actions en entrant le nom de l’action dans le champ `Add New Action` et en appuyant ensuite sur le bouton `+ Add` .
 
-![image.png](image.png)
+![image.png](Images/image.png)
 
 Une Input Action va donc contenir deux informations : 
 
@@ -17,7 +17,7 @@ Pour ajouter un input à une action, il faut appuyer sur le bouton `+` à droite
 - Sélectionner l’input parmi ceux présents dans les différents menus déroulants (que ça soit un input du clavier, de la souris ou d’une manette).
 - Si le champ en haut stipule `Listenning for Input` vous pouvez simplement appuyer sur l’input en question pour le sélectionner directement.
 
-![image.png](image%201.png)
+![image.png](Images/image01.png)
 
 # Comment utiliser les Input Actions
 
@@ -36,7 +36,7 @@ Une fois dans la méthode, on peut ensuite appeler les méthodes:
 
 Par exemple, on aura : 
 
-![image.png](image%202.png)
+![image.png](Images/image02.png)
 
 # Autres moyens de capturer des inputs
 
@@ -50,4 +50,4 @@ Par exemple, on aura :
 
 Il est également possible de convertir l’InputEvent APRÈS avoir vérifié qu’il appartenait bien à une action spécifique (si on veut avoir les déplacements d’un personnage gérés par une action `player_movement` qui permet de gérer les comportements au clavier ou à la manette par exemple). 
 
-![image.png](image%203.png)
+![image.png](Images/image03.png)
